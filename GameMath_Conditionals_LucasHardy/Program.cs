@@ -65,26 +65,31 @@ namespace GameMath_Conditionals_LucasHardy
 
         }
 
-        static void healthStatus()
-        { 
-            if (health == 0..10)
+        static void HealthStatus(int health)
+        {
+            if (health == 0.10)
             {
-                Console.Write("Health is Critically Low")
+                Console.Write("Health is Critically Low");
             }
 
-            else if(health == 10..50)
+            else if (health == 10.50)
             {
-                Console.Write("Health is Very Low")
+                Console.Write("Health is Very Low");
             }
 
-            else if(health == 50..75)
-            Console.Write("Health is Fair)
-
-            else if health == 75..99
-            Console.Write("Health is Good")
-
-            else health == 100
-            Console.Write("Health is Perfect")
+            else if (health == 50.75)
+            {
+                Console.Write("Health is Fair");
+            }
+            else if (health == 75.99)
+            {
+                Console.Write("Health is Good");
+            }
+            else (health == 100)
+            {
+                Console.Write("Health is Perfect");
+            }
+            return;
        }     
             
 
