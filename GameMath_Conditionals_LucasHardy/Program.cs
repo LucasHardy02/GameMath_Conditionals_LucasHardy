@@ -93,7 +93,6 @@ namespace GameMath_Conditionals_LucasHardy
             Console.ReadKey();
             Console.Clear();
            
-
             Console.WriteLine("The goblin ran away");
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
@@ -118,10 +117,50 @@ namespace GameMath_Conditionals_LucasHardy
             Console.Clear();
             ShowHUD();
 
+            Console.WriteLine("You notice a path in the distance, so you appraoach and follow along it.");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("Goblin is back. This time he came to apologize.");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("As a courteous warrior, you accept his apology. A hug was shared between you and the goblin.");
+            changeWeapon(WeaponType.Fist);
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("Goblin leaves.");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("You check your back pocket, Your Slingshot is no longer there. Goblin is a theif!");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+            ShowHUD();
+
+            Console.WriteLine("Despite your hardships, you continue your venture, following along the path.");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("You followed along the path so far that it now leads into the woods.");
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("You notice an axe lying up against a tree. You take it with you.");
+            changeWeapon(WeaponType.Axe);
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+            Console.Clear();
 
 
-
-            changeWeapon(WeaponType.Slingshot);
             changeWeapon(WeaponType.Axe);
             changeWeapon(WeaponType.Pistol);
             changeWeapon(WeaponType.Shotgun);
